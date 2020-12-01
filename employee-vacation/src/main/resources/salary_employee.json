@@ -1,0 +1,182 @@
+[
+  {
+    "employee_id": 10001,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10002,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10003,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10004,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10005,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10006,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10007,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10008,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10009,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10010,
+    "employee_type": "MANAGER",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10011,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10012,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10013,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10014,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10015,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10016,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10017,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10018,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10019,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10020,
+    "employee_type": "SALARIED",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10021,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10022,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10023,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10024,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10025,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10026,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10027,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10028,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10029,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  },
+  {
+    "employee_id": 10030,
+    "employee_type": "HOURLY",
+    "workdays": 0,
+    "vacationDays": 0
+  }
+]
