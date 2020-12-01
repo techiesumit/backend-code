@@ -70,9 +70,10 @@ public class EmployeeHardCodedDataServiceImpl implements EmployeeHardCodedDataSe
     private void validateAndUpdateWorkday(Employee emp, Float workdays) {
         Float workDaysUpdated= (emp.getWorkDays() + workdays);
         if (workDaysUpdated > EmployeeVacationConstants.WORK_DAYS_IN_YEAR ) {
-            emp.setErrorMessage(EmployeeVacationConstants.WORK_DAYS_OVER+ " Maximum Days in Year Allowed is "+ EmployeeVacationConstants.WORK_DAYS_IN_YEAR);
+            emp.setErrorMessage(EmployeeVacationConstants.WORK_DAYS_OVER);
         } else {
             emp.setWorkDays(workDaysUpdated);
+            emp.setErrorMessage("");
         }
     }
 
@@ -80,21 +81,22 @@ public class EmployeeHardCodedDataServiceImpl implements EmployeeHardCodedDataSe
         Float vacations = emp.getVacationDays() + vacationDays;
         if (emp.getEmployee_type().equals(EmployeeType.HOURLY)) {
             if (vacations > EmployeeVacationConstants.HOURLY_EMP_VACATION) {
-                emp.setErrorMessage(EmployeeVacationConstants.VACATION_DAYS_OVER + "Allowed Limit is " + EmployeeVacationConstants.HOURLY_EMP_VACATION);
+                emp.setErrorMessage(EmployeeVacationConstants.VACATION_DAYS_OVER );
             } else {
                 emp.setVacationDays(vacations);
+                emp.setErrorMessage("");
             }
         }
         if (emp.getEmployee_type().equals(EmployeeType.SALARIED)) {
             if (vacations > EmployeeVacationConstants.SALARIED_EMP_VACATION) {
-                emp.setErrorMessage(EmployeeVacationConstants.VACATION_DAYS_OVER + "Allowed Limit is " + EmployeeVacationConstants.SALARIED_EMP_VACATION);
+                emp.setErrorMessage(EmployeeVacationConstants.VACATION_DAYS_OVER );
             } else {
                 emp.setVacationDays(vacations);
             }
         }
         if (emp.getEmployee_type().equals(EmployeeType.MANAGER)) {
             if (vacations > EmployeeVacationConstants.MANAGER_EMP_VACATION) {
-                emp.setErrorMessage(EmployeeVacationConstants.VACATION_DAYS_OVER + "Allowed Limit is " + EmployeeVacationConstants.MANAGER_EMP_VACATION);
+                emp.setErrorMessage(EmployeeVacationConstants.VACATION_DAYS_OVER);
             } else {
                 emp.setVacationDays(vacations);
             }
